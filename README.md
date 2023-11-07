@@ -92,8 +92,3 @@ export default function Demo() {
 }
 ```
 
-# 友情推荐
-
-| 项目                                                         | 描述                                             |
-| ------------------------------------------------------------ | ------------------------------------------------ |
-| [taro-react-table](https://github.com/qiuweikangdev/taro-react-table) | 基于 taro3、react 的 H5 和微信小程序多端表格组件 |

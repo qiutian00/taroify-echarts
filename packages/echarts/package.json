@@ -15,7 +15,7 @@
     "taro-echarts",
     "taroify-echarts"
   ],
-  "author": "qiuweikang",
+  "author": "",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
