@@ -10,7 +10,7 @@
     "dev:h5": "cross-env NODE_ENV=dev pnpm update:pkg && turbo run dev:h5 --filter=demo",
     "dev:weapp": "cross-env NODE_ENV=dev pnpm update:pkg && turbo run dev:weapp --filter=demo",
     "build": "cross-env NODE_ENV=prod pnpm update:pkg && turbo run build:echarts --filter=taroify-echarts",
-    "turbo:publish": "cross-env NODE_ENV=prod pnpm update:pkg && turbo run publish",
+    "turbo:publish": "cross-env NODE_ENV=prod pnpm update:pkg && turbo run publish:echarts --filter=taroify-echarts",
     "update:pkg": "node ./scripts/update-pkg.js",
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
     "lint": "eslint --fix \"**/*.{js,ts,tsx}\" ",

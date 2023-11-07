@@ -1,6 +1,6 @@
 {
   "name": "taroify-echarts",
-  "version": "1.2.2",
+  "version": "0.0.2",
   "description": "taro图表",
   "scripts": {
     "build:echarts": "rimraf dist && rollup --config ./rollup.config.js",
